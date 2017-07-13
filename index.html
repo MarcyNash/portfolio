@@ -2,54 +2,51 @@
 <html>
 
 <head>
-  <title>Example</title>
+  <title>Marcy's Portfolio</title>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
 </head>
+<body>
+<header id="header">
+  <nav class="navbar navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Marcy Nash</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-right navbar-nav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#interests">Interest</a></li>
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
 
-<body class="container-fluid">
-  <nav id="header" class="navbar navbar-fixed-top">
-    <div id="header-container" class="container-fluid navbar-container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-horizontal navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#interests">Interests</a></li>
-        </ul>
-      </div>
-      <!-- /.nav-collapse -->
-      </div>
-    </div>
-    <!-- /.container -->
-  </nav>
-  <h1> Portfolio Template </h1>
 
-  <section class="section" id="about">
+  <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
           <h2 class="section-heading">About Me</h2>
           <p class="about">
-            I am currently enrolled in the Full Stack Web Development Immersive bootcamp at General Assembly. As a former Windows software developer, I have experience managing projects, working individually and in teams, designing, implementing, testing and debugging
-            software applications and components. I’m adaptable to change and eager to learn and expand my capabilities.
+            I am currently enrolled in the Full Stack Web Development Immersive bootcamp at General Assembly. As a former Windows software developer, I have experience designing, implementing, testing and debugging
+            software applications and components and working individually and in teams. I’m adaptable to change and eager to learn and expand my capabilities.
             <br>
             <p>I used an online, open source artificial pancreas system to create a hardware and software “brain” to help manage my Type 1 Diabetes.
           </p>
@@ -68,7 +65,7 @@
       </div>
     </div>
   </section>
-  <section class="section" id="projects">
+  <section id="projects">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -79,7 +76,7 @@
       </div>
     </div>
   </section>
-  <section class="section" id="resume">
+  <section id="resume">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -102,7 +99,7 @@
       </div>
     </div>
   </section>
-  <section class="section" id="interests">
+  <section id="interests">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
